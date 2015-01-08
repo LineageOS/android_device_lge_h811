@@ -24,3 +24,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # common g4
 $(call inherit-product, device/lge/g4-common/g4.mk)
+

@@ -6,6 +6,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
+
 PRODUCT_NAME := cm_h811
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
