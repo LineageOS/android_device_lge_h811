@@ -22,6 +22,10 @@ $(call inherit-product-if-exists, vendor/lge/h811/h811-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml
+
 # common g4
 $(call inherit-product, device/lge/g4-common/g4.mk)
 
