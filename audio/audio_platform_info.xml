@@ -68,6 +68,7 @@
 
     <device_names>
         <!-- Output devices -->
+        <device name="SND_DEVICE_OUT_VOICE_HANDSET" alias="voice-handset-tmus" />       
         <device name="SND_DEVICE_OUT_VOIP_HANDSET" alias="voip-earpiece" />
         <device name="SND_DEVICE_OUT_VOIP_SPEAKER" alias="voip-speaker" />
         <device name="SND_DEVICE_OUT_VOIP_HEADPHONES" alias="voip-headphones" />
