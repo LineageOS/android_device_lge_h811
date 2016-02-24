@@ -17,6 +17,10 @@
 # inherit from common g4
 -include device/lge/g4-common/BoardConfigCommon.mk
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4492099584
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137280
+
 TARGET_OTA_ASSERT_DEVICE := g4,p1,h811
 
 # Kernel
