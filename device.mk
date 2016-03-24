@@ -19,6 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lge/h811/h811-vendor.mk)
 
+# Init configuration
+PRODUCT_PACKAGES += \
+    fstab.h811 \
+    init.device.rc \
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml
