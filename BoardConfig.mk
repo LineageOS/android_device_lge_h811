@@ -24,7 +24,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137280
 TARGET_OTA_ASSERT_DEVICE := g4,p1,h811
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_h811_defconfig
+TARGET_KERNEL_CONFIG := lineageos_h811_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h811/BoardConfigVendor.mk
